@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Salzgitter See", "quality": "Gut", "lastTest": "2025-09-10" },
+  { "id": 2, "name": "Vechelde Teich", "quality": "Mittel", "lastTest": "2025-09-08" },
+  { "id": 3, "name": "Jedit's Dümpel", "quality": "Mies", "lastTest": "2025-09-12" }
+]
