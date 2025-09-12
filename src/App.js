@@ -1,20 +1,16 @@
 import React from 'react';
 import Home from './pages/Home';
 
+import Header from './components/Header';
+
 function App() {
-  return (
-      <div>
-        <header style={{ backgroundColor: '#d00', color: '#fff', padding: '1rem' }}>
-          <nav>
-            <span style={{ marginRight: '1rem' }}>Projekt</span>
-            <span style={{ marginRight: '1rem' }}>Suche</span>
-            <span style={{ marginRight: '1rem' }}>Beisteuern</span>
-            <span>Sonstiges</span>
-          </nav>
-        </header>
-        <Home />
-      </div>
-  );
+    return (
+        <>
+            <Header />
+            <Home />
+        </>
+    );
 }
+
 
 export default App;

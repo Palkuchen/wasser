@@ -23,11 +23,18 @@ export default function Home() {
     };
 
     return (
-        <div>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '2rem'
+        }}>
             <SearchBar onSearch={handleSearch} />
             {filtered.map(region => (
                 <RegionCard key={region.id} region={region} />
             ))}
         </div>
+
     );
 }
