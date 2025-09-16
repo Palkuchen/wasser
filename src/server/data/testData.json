@@ -1,5 +1,25 @@
 [
   { "id": 1, "name": "Salzgitter See", "quality": "Gut", "lastTest": "2025-09-10" },
   { "id": 2, "name": "Vechelde Teich", "quality": "Mittel", "lastTest": "2025-09-08" },
-  { "id": 3, "name": "Jedit's Dümpel", "quality": "Mies", "lastTest": "2025-09-12" }
+  { "id": 3, "name": "Jedit's Dümpel", "quality": "Mies", "lastTest": "2025-09-12" },
+  { "id": 4, "name": "Wendeburg Weiher", "quality": "Gut", "lastTest": "2025-09-11" },
+  { "id": 5, "name": "Braunschweig Bach", "quality": "Mittel", "lastTest": "2025-09-09" },
+  { "id": 6, "name": "Peiner Pfütze", "quality": "Mies", "lastTest": "2025-09-13" },
+  { "id": 7, "name": "Harzquelle", "quality": "Sehr Gut", "lastTest": "2025-09-07" },
+  { "id": 8, "name": "Elmsee", "quality": "Gut", "lastTest": "2025-09-10" },
+  { "id": 9, "name": "Riddagshausen Teich", "quality": "Mittel", "lastTest": "2025-09-06" },
+  { "id": 10, "name": "Leine Fluss", "quality": "Mies", "lastTest": "2025-09-12" },
+  { "id": 11, "name": "Oker Ufer", "quality": "Gut", "lastTest": "2025-09-08" },
+  { "id": 12, "name": "Südsee Braunschweig", "quality": "Sehr Gut", "lastTest": "2025-09-05" },
+  { "id": 13, "name": "Wolfsburg Wasserpark", "quality": "Mittel", "lastTest": "2025-09-11" },
+  { "id": 14, "name": "Gifhorn Kanal", "quality": "Mies", "lastTest": "2025-09-09" },
+  { "id": 15, "name": "Eixer See", "quality": "Gut", "lastTest": "2025-09-10" },
+  { "id": 16, "name": "Schunter Bach", "quality": "Sehr Gut", "lastTest": "2025-09-07" },
+  { "id": 17, "name": "Ilseder Teich", "quality": "Mittel", "lastTest": "2025-09-06" },
+  { "id": 18, "name": "Fallersleben Weiher", "quality": "Mies", "lastTest": "2025-09-13" },
+  { "id": 19, "name": "Reitlingstal Quelle", "quality": "Gut", "lastTest": "2025-09-08" },
+  { "id": 20, "name": "Bortfelder Bach", "quality": "Sehr Gut", "lastTest": "2025-09-05" },
+  { "id": 21, "name": "Thiede Teich", "quality": "Mittel", "lastTest": "2025-09-10" },
+  { "id": 22, "name": "Lengede See", "quality": "Mies", "lastTest": "2025-09-12" },
+  { "id": 23, "name": "Watenbüttel Weiher", "quality": "Gut", "lastTest": "2025-09-09" }
 ]
