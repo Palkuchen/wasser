@@ -4,14 +4,12 @@ export default function RegionCard({ region }) {
             border: '1px solid #ccc',
             padding: '1rem',
             marginBottom: '1rem',
-            width: '100%',
-            maxWidth: '500px',
+            width: '90%',
             textAlign: 'center'
         }}>
             <h3>{region.name}</h3>
             <p>Wasserqualität: {region.quality}</p>
             <p>Letzter Test: {region.lastTest}</p>
         </div>
-
     );
 }

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfec9de5-0881-4736-b543-48b63934d492" name="Changes" comment="changed orientation to flex">
-      <change afterPath="$PROJECT_DIR$/src/pages/Contribute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Misc.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Search.jsx" afterDir="false" />
+    <list default="true" id="cfec9de5-0881-4736-b543-48b63934d492" name="Changes" comment="made Header work">
+      <change afterPath="$PROJECT_DIR$/public/images/salzgittersee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegionDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/WaterSearchbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
@@ -15,12 +15,11 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/data/testData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/data/testData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegionCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contribute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contribute.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/routes/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routes/tests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Laplace/WebstormProjects/wasser/public/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +74,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laplace\WebstormProjects\wasser\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laplace\WebstormProjects\wasser\public\images" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -107,7 +115,9 @@
       <workItem from="1757683472032" duration="2869000" />
       <workItem from="1757686413406" duration="923000" />
       <workItem from="1757992984383" duration="1033000" />
-      <workItem from="1757994040765" duration="1350000" />
+      <workItem from="1757994040765" duration="2048000" />
+      <workItem from="1758634860083" duration="66000" />
+      <workItem from="1759045893179" duration="2538000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -125,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757686909072</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="made Header work">
+      <option name="closed" value="true" />
+      <created>1757997402582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757997402582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +153,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="changed README.md" />
     <MESSAGE value="changed orientation to flex" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed orientation to flex" />
+    <MESSAGE value="made Header work" />
+    <option name="LAST_COMMIT_MESSAGE" value="made Header work" />
   </component>
 </project>
