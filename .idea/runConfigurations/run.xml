@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run" type="CompoundRunConfigurationType">
+    <toRun name="start server" type="NodeJSConfigurationType" />
+    <toRun name="open website" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>

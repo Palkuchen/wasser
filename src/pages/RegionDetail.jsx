@@ -43,9 +43,25 @@ export default function RegionDetail() {
                     Wasserqualität: <strong>{region.quality}</strong>
                 </p>
                 <p>
-                    Der Watenbüttel Weiher ist ein beliebtes Naherholungsgebiet mit ruhiger Atmosphäre und guter Wasserqualität.
-                    Die letzte Messung vom <strong>{region.lastTest}</strong> bestätigt die Eignung für Freizeitaktivitäten wie Angeln und Spazieren.
+                    {region.quality === 'Mies' ? (
+                        <>
+                            Der {region.name} hat leider eine schlechte Wasserqualität.
+                            Aufgrund der letzten Messung vom <strong>{region.lastTest}</strong> wird von Freizeitaktivitäten wie Baden und Schwimmen abgeraten.
+                        </>
+                    ) : region.quality === 'Mittel' ? (
+                        <>
+                            Der {region.name} ist ein Naherholungsgebiet mit mäßiger Wasserqualität.
+                            Freizeitaktivitäten sind eingeschränkt möglich, insbesondere Baden und Angeln.
+                            Die letzte Messung vom <strong>{region.lastTest}</strong> lässt vom Trinken und Angeln abraten.
+                        </>
+                    ) : (
+                        <>
+                            Der {region.name} ist ein beliebtes Naherholungsgebiet mit ruhiger Atmosphäre und {region.quality === 'Sehr gut' ? 'exzellenter' : 'guter'} Wasserqualität.
+                            Die letzte Messung vom <strong>{region.lastTest}</strong> bestätigt die Eignung für Freizeitaktivitäten wie Angeln und Spazieren.
+                        </>
+                    )}
                 </p>
+
             </div>
         </div>
     );
