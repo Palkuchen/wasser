@@ -2,15 +2,35 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 export default function RegionDetail() {
-    const backgroundImage = '/images/salzgittersee.jpg';
     const { id } = useParams();
     const [region, setRegion] = useState(null);
+    const [backgroundImage, setBackgroundImage] = useState('');
 
     useEffect(() => {
-        fetch(`/api/tests/${id}`)
-            .then(res => res.json())
-            .then(data => setRegion(data));
-    }, [id]);
+        const fetchImage = async () => {
+            try {
+                const response = await fetch(`/api/tests/image/${id}`);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const blob = await response.blob(); // Get the image as a Blob
+                const imageUrl = URL.createObjectURL(blob); // Create a URL for the Blob
+                setBackgroundImage(imageUrl);
+            } catch (error) {
+                console.error('There was a problem with the fetch operation:', error);
+            }
+        };
+
+        fetchImage();
+
+        // Clean up the object URL when the component unmounts
+        return () => {
+            if (backgroundImage) {
+                URL.revokeObjectURL(backgroundImage);
+            }
+        };
+    }, [id, backgroundImage]);
+
 
     if (!region) return <p>Lade Region...</p>;
 
@@ -29,7 +49,7 @@ export default function RegionDetail() {
                 textShadow: '0 1px 3px rgba(0,0,0,0.6)',
             }}
         >
-            <div
+        <div
                 style={{
                     backgroundColor: 'rgba(0, 0, 0, 0.5)',
                     padding: '2rem',
