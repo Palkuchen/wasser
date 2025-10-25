@@ -29,7 +29,13 @@ export default function RegionDetail() {
                 URL.revokeObjectURL(backgroundImage);
             }
         };
-    }, [id, backgroundImage]);
+    }, [id]);
+
+    useEffect(() => {
+        fetch(`/api/tests/${id}`)
+            .then(res => res.json())
+            .then(data => setRegion(data));
+    }, [id]);
 
 
     if (!region) return <p>Lade Region...</p>;
