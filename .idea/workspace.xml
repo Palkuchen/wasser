@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfec9de5-0881-4736-b543-48b63934d492" name="Changes" comment="changed orientation to flex">
+    <list default="true" id="cfec9de5-0881-4736-b543-48b63934d492" name="Changes" comment="added aarons data">
+      <change afterPath="$PROJECT_DIR$/src/server/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/images/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegionCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Palkuchen"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Palkuchen/wasser",
+    "accountId": "3be0b109-aedf-406e-a6b5-9d9614d56673"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -44,6 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/palku/WebstormProjects/wasser/src/server/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +70,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\palku\WebstormProjects\wasser\src\server\images" />
+      <recent name="C:\Users\palku\WebstormProjects\wasser\src\server\data" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -105,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757686909072</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added aarons data">
+      <option name="closed" value="true" />
+      <created>1761379595380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761379595380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +143,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="changed README.md" />
     <MESSAGE value="changed orientation to flex" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed orientation to flex" />
+    <MESSAGE value="added aarons data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added aarons data" />
   </component>
 </project>
