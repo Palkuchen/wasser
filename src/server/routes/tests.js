@@ -21,6 +21,7 @@ const loadCsvData = (filePath) => {
 loadCsvData('./data/Aaron.csv')
     .then(data => {
         csvData = data;
+        console.log(csvData);
         console.log('CSV data loaded successfully.');
     })
     .catch(error => {
