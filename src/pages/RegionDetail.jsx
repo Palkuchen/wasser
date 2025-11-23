@@ -86,8 +86,33 @@ export default function RegionDetail() {
                             Die letzte Messung vom <strong>{region.lastTest}</strong> bestätigt die Eignung für Freizeitaktivitäten wie Angeln und Spazieren.
                         </>
                     )}
-                </p>
 
+                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
+                        <p><strong>pH-Wert:</strong> {region.details.pH}</p>
+                        <p><strong>Gesamthärte:</strong> {region.details.gesamthaerte} °dH</p>
+
+                        <p><strong>Gesamtalkalinität / Karbonathärte:</strong> {region.details.gesamtAlkalinitaet_Karbonathaerte} mg/L</p>
+                        <p><strong>Zink:</strong> {region.details.zink} mg/L</p>
+
+                        <p><strong>Freies Chlor & Brom:</strong> {region.details.freiesChlor_Brom} mg/L</p>
+                        <p><strong>Eisen:</strong> {region.details.eisen} mg/L</p>
+
+                        <p><strong>QUAT / QAC:</strong> {region.details.quat_qac} mg/L</p>
+                        <p><strong>Kupfer:</strong> {region.details.kupfer} mg/L</p>
+
+                        <p><strong>Blei:</strong> {region.details.blei} mg/L</p>
+                        <p><strong>Quecksilber:</strong> {region.details.quecksilber} mg/L</p>
+
+                        <p><strong>Nitrat:</strong> {region.details.nitrat} mg/L</p>
+                        <p><strong>Nitrit:</strong> {region.details.nitrit} mg/L</p>
+
+                        <p><strong>Chlor gesamt:</strong> {region.details.chlorGesamt} mg/L</p>
+                        <p><strong>Mangan:</strong> {region.details.mangan} mg/L</p>
+
+                        <p><strong>Sulfat:</strong> {region.details.sulfat} mg/L</p>
+                        <p><strong>Fluoride:</strong> {region.details.fluoride} mg/L</p>
+                    </div>
+                </p>
             </div>
         </div>
     );

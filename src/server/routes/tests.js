@@ -1,33 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
-const csv = require('csv-parser');
-const data = require('../data/testData.json');
+const data = require('../data/acutalData.json');
 const {join} = require("node:path");
-
-let csvData = [];
-
-const loadCsvData = (filePath) => {
-    return new Promise((resolve, reject) => {
-        const results = [];
-        fs.createReadStream(filePath)
-            .pipe(csv())
-            .on('data', (data) => results.push(data))
-            .on('end', () => resolve(results))
-            .on('error', (error) => reject(error));
-    });
-};
-
-loadCsvData('./data/Aaron.csv')
-    .then(data => {
-        csvData = data;
-        console.log(csvData);
-        console.log('CSV data loaded successfully.');
-    })
-    .catch(error => {
-        console.error('Failed to load CSV data:', error);
-        process.exit(1);
-    });
+const fs = require('fs');
 
 router.get('/', (req, res) => {
     res.json(data);
@@ -36,9 +11,6 @@ router.get('/', (req, res) => {
 router.get('/image/:id', async (req, res) => {
     const lineNumber = parseInt(req.params.id, 10);
 
-    if (lineNumber < 1 || lineNumber > csvData.length) {
-        return res.status(404).json({ error: 'Line not found' });
-    }
     const imageName = lineNumber + '.jpg';
     const imagePath = join(__dirname, '../images', imageName);
 
@@ -51,16 +23,14 @@ router.get('/image/:id', async (req, res) => {
     });
 });
 
-router.get('/:id', async (req, res) => {
-    const lineNumber = parseInt(req.params.id, 10);
+router.get('/:id', (req, res) => {
+    const regionId = parseInt(req.params.id, 10);
+    const region = data.find(r => r.id === regionId);
 
-    try {
-        if (lineNumber < 1 || lineNumber > csvData.length) {
-            return res.status(404).json({error: 'Line not found'});
-        }
-        res.json(csvData[lineNumber]);
-    } catch (error) {
-        res.status(500).json({error: 'Internal Server Error'});
+    if (region) {
+        res.json(region);
+    } else {
+        res.status(404).json({ error: 'Region nicht gefunden' });
     }
 });
 

@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfec9de5-0881-4736-b543-48b63934d492" name="Changes" comment="Added Search and background pics">
+      <change afterPath="$PROJECT_DIR$/src/server/data/acutalData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Misc.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/data/Aaron.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/data/Aaron.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegionCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegionDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegionDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/data/Aaron.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/routes/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/routes/tests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +117,9 @@
       <workItem from="1758634860083" duration="66000" />
       <workItem from="1759045893179" duration="2538000" />
       <workItem from="1763559547878" duration="461000" />
+      <workItem from="1763571016945" duration="621000" />
+      <workItem from="1763819161274" duration="1193000" />
+      <workItem from="1763912838364" duration="2233000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
