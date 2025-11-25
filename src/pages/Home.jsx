@@ -52,13 +52,8 @@ export default function Home() {
                 rel="stylesheet"
                 href="https://unpkg.com/leaflet/dist/leaflet.css" />
             <h1 style={{ marginBottom: '1rem' }}>🔍 Regionale Wassertests finden</h1>
-            <p style={{ maxWidth: '600px', textAlign: 'center', marginBottom: '2rem' }}>
-                Gib den Namen eines Gewässers oder Ortes ein, um verfügbare Wassertests zu durchsuchen. Du kannst z. B. „Watenbüttel“ oder „Weiher“ eingeben.
-            </p>
 
-            <WaterSearchbar onSearch={handleSearch} />
-
-            <MapContainer center={[52.25839652384204, 10.371563439265495]} zoom={13} style={{ height: '400px', width: '100%', marginTop: '2rem' }}>
+            <MapContainer center={[52.25839652384204, 10.371563439265495]} zoom={13} style={{ height: '600px', width: '100%', marginTop: '2rem' }}>
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -73,27 +68,6 @@ export default function Home() {
                     </Marker>
                 ))}
             </MapContainer>
-
-            {filtered.length === 0 ? (
-                <p style={{ marginTop: '2rem', color: '#666' }}>
-                    Keine Region gefunden. Bitte überprüfe deine Eingabe.
-                </p>
-            ) : (
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-                    gap: '1.5rem',
-                    width: '100%',
-                    maxWidth: '1000px',
-                    marginTop: '2rem'
-                }}>
-                    {filtered.map(region => (
-                        <div key={region.id} onClick={() => handleClick(region.id)} style={{ cursor: 'pointer' }}>
-                            <RegionCard region={region} />
-                        </div>
-                    ))}
-                </div>
-            )}
         </div>
     );
 }
