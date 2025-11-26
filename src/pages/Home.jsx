@@ -27,14 +27,6 @@ export default function Home() {
             });
     }, []);
 
-    const handleSearch = (query) => {
-        console.log("Suche nach:", query); // Debug
-        const result = regions.filter(r =>
-            r.name.toLowerCase().includes(query.toLowerCase())
-        );
-        setFiltered(result);
-    };
-
     const handleClick = (regionId) => {
         navigate(`/region/${regionId}`);
     };
