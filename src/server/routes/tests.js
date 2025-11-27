@@ -12,14 +12,23 @@ router.get('/image/:id', async (req, res) => {
     const lineNumber = parseInt(req.params.id, 10);
 
     const imageName = lineNumber + '.jpg';
+    const altImageName = lineNumber + '.jpeg';
     const imagePath = join(__dirname, '../images', imageName);
+    const altImagePath = join(__dirname, '../images', altImageName);
 
+    var error = false
     fs.access(imagePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            error = true;
+        }else{
+            return res.sendFile(imagePath);
+        }
+    });
+    fs.access(altImagePath, fs.constants.F_OK, (err) => {
         if (err) {
             return res.status(404).json({ error: 'Image not found' });
         }
-
-        res.sendFile(imagePath);
+        return res.sendFile(altImagePath);
     });
 });
 

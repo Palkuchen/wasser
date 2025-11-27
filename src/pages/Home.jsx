@@ -53,7 +53,7 @@ export default function Home() {
                 {filtered.map(region => (
                     <Marker
                         key={region.id}
-                        position={[region.latitude, region.longitude]}>
+                        position={[region.latitude ?? 52.25839652384204, region.longitude ?? 10.371563439265495]}>
                         <Popup>
                             <span onClick={() => handleClick(region.id)}>{region.name}</span>
                         </Popup>
